@@ -1,0 +1,2 @@
+# bluetooth_gyro_mouse
+ESP32, MPU6050を使用したbluetoothのジャイロで動かすマウスのプログラムです。
