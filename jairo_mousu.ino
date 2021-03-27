@@ -177,3 +177,5 @@ void calcRotation(){
   dpsY = ((float)raw_gyro_y) / 65.5;
   dpsZ = ((float)raw_gyro_z) / 65.5;
   
+
+  dpsY = ((float)raw_gyro_y) / 65.5;
