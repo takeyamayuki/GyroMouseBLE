@@ -176,6 +176,4 @@ void calcRotation(){
   dpsX = ((float)raw_gyro_x) / 65.5; // LSB sensitivity: 65.5 LSB/dps @ ±500dps
   dpsY = ((float)raw_gyro_y) / 65.5;
   dpsZ = ((float)raw_gyro_z) / 65.5;
-  
-
-  dpsY = ((float)raw_gyro_y) / 65.5;
+}
