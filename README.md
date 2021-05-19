@@ -1,6 +1,6 @@
 # bluetooth_gyro_mouse
 
-動作状況はyoutubeにも公開しています。
+動作状況はyoutubeにも公開しています。(エンタメ要素強めです)
 https://youtu.be/m1KO7G2T02A
 
 ESP32, MPU6050を使用したbluetoothのジャイロで動かすマウスのプログラムです。
