@@ -1,8 +1,7 @@
 # bluetooth_gyro_mouse
 ESP32, MPU6050を使用したbluetoothのジャイロで動かすマウスのプログラム　　　
 
-動作状況は[youtube](https://youtu.be/m1KO7G2T02A　　)にも公開しています。(エンタメ要素強めです)　　
-
+動作状況は[youtube](https://youtu.be/DzT40SCh3nI)に公開しています(エンタメ要素強めです)　　
 
 メインプログラムはjairo_mausu3ディレクトリに入ってます  
 ESP32用の[BleMouseライブラリ](https://github.com/T-vK/ESP32-BLE-Mouse)をインストールする必要があります　　
