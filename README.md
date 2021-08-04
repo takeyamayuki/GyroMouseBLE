@@ -1,5 +1,5 @@
 # bluetooth_gyro_mouse
-A mouse program using ESP32, MPU6050 with bluetooth gyro.  
+A mouse program using ESP32, MPU6050 with bluetooth.  
 
 You can see how it works on [youtube](https://youtu.be/DzT40SCh3nI) (more entertaining)
 
