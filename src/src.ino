@@ -128,7 +128,7 @@ void setup() {
   offsetX /= 3000;
   offsetY /= 3000;
   offsetZ /= 3000;
- 
+
   Serial.print("offsetX : ");
   Serial.println(offsetX);
   Serial.print("offsetY : ");
@@ -152,26 +152,26 @@ void loop() {
     if(touchRead(T0)>30){
        bleMouse.move(-(dpsZ)*x_kand, -(dpsY-3)*y_kand, 0);    //カーソル動かす
     }
-    if(digitalRead(16)==0){
-       bleMouse.press();
-       delay(10);
-       i1=1;
+    if(digitalRead(16)==0){             //左クリック
+        bleMouse.press();
+        delay(10);
+        i1=1;
     }
-    if(i1==1 && digitalRead(16)==1){
-       bleMouse.release();
-       i1=0;
+    if(i1==1 && digitalRead(16)==1){    //左クリックリリース
+        bleMouse.release();
+        i1=0;
     }
-    if(digitalRead(17)==0){
-       bleMouse.press(MOUSE_RIGHT);
-       delay(10);
-       i2=1;
+    if(digitalRead(17)==0){             //右クリック
+        bleMouse.press(MOUSE_RIGHT);
+        delay(10);
+        i2=1;
     }
-    if(i2==1 && digitalRead(17)==1){
-       bleMouse.release(MOUSE_RIGHT);
-       i2=0;
+    if(i2==1 && digitalRead(17)==1){    //右クリックリリース
+        bleMouse.release(MOUSE_RIGHT);
+        i2=0;
     }
-    if(digitalRead(5)==0){
-       bleMouse.move(0,0, (dpsY-3)*sc_kand);            //スクロール
+    if(digitalRead(5)==0){              //スクロール
+        bleMouse.move(0,0, (dpsY-3)*sc_kand);            
     }
   }
 }
