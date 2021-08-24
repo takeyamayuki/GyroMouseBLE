@@ -1,0 +1,3 @@
+[submodule "ESP32-BLE-Mouse"]
+	path = ESP32-BLE-Mouse
+	url = https://github.com/T-vK/ESP32-BLE-Mouse
