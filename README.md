@@ -14,8 +14,8 @@ you can also see this in [circuit](circuit) repository.
 # Usage
 In the circuit
 
-|switch| behavior|
-|:-|-:|
+|switch|behavior|
+|:-:|:-:|
 |Rightmost switch|click|
 |Middle switch|right click|
 |Leftmost switch|scroll|
