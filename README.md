@@ -9,7 +9,7 @@ You can see how it works on [youtube](https://youtu.be/DzT40SCh3nI)
 The main program is in the [src](src) directory.  
 # circuit
 you can also see this in [circuit](circuit) repository.  
-{{< image src="https://user-images.githubusercontent.com/22733958/118673461-fc42a100-b833-11eb-9869-2fa7800ffb94.png" position="center" style="width:70%;" >}}
+< image src="https://user-images.githubusercontent.com/22733958/118673461-fc42a100-b833-11eb-9869-2fa7800ffb94.png" position="center" style="width:70%;" >
 
 # Usage
 In the circuit
