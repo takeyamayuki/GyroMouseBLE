@@ -19,7 +19,8 @@ In this following circuit,
 |Leftmost switch|scroll|
 |Touch switch|stop the mouse cursor moving|
 
-If you face the problem of the y-axis drifting, try some of the variables "offsety .
+If you face the problem of the y-axis drifting, try some of the variables "offsety" in line 23.  
+<img width="216" alt="スクリーンショット 2021-08-28 午後5 08 24" src="https://user-images.githubusercontent.com/22733958/131211237-7e0db5ac-af1b-4560-a71b-4da47c72b954.png">
 
 ![github_usage1-アニメーションイメージ（大）](https://user-images.githubusercontent.com/22733958/130589777-bb9e9679-aeb6-43dd-bc9e-a26c03030525.gif)  
 sorry, it's hard to see😅
