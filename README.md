@@ -1,4 +1,4 @@
-# bluetooth_gyro_mouse
+# GyroMouseBLE
 An arduino program using MPU6050, ESP32 with bluetooth.    
 You can see how it works on [youtube](https://youtu.be/DzT40SCh3nI)  
 - The main program is in the [src directory](src).  
