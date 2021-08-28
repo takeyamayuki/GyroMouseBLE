@@ -20,6 +20,7 @@ float gx, gy, gz, dpsX, dpsY, dpsZ;
 float x_kand=0.8;
 float y_kand=0.8;
 float sc_kand=0.05;
+float offsety=4.9;
 int i1=0, i2=0;
 
 //加速度、ジャイロから角度を計算
@@ -145,12 +146,12 @@ void loop() {
   Serial.print("  Z : ");
   Serial.print(dpsZ);
   Serial.print("  Y : ");
-  Serial.print(dpsY-3);
+  Serial.print(dpsY-offsety);
   Serial.println(""); // 改行
 
   if(bleMouse.isConnected()) {     //接続状況確認
     if(touchRead(T0)>30){
-       bleMouse.move(-(dpsZ)*x_kand, -(dpsY-3)*y_kand, 0);    //カーソル動かす
+       bleMouse.move(-(dpsZ)*x_kand, (dpsY-offsety)*y_kand, 0);    //カーソル動かす
     }
     if(digitalRead(16)==0){             //左クリック
         bleMouse.press();
